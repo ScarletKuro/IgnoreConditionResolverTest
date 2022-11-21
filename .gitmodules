@@ -1,0 +1,24 @@
+[submodule "src/WinPOS.Kiisu.Printing"]
+	path = src/WinPOS.Kiisu.Printing
+	url = https://bitbucket.org/tallink/winpos-nugis-printing.git
+[submodule "src/CommandLineParser"]
+	path = src/CommandLineParser
+	url = https://bitbucket.org/tallink/command-line-parser.git
+[submodule "src/VirtualKeyboard"]
+	path = src/VirtualKeyboard
+	url = https://bitbucket.org/tallink/virtualkeyboard.git
+[submodule "src/RadialMenu"]
+	path = src/RadialMenu
+	url = https://bitbucket.org/tallink/radialmenu.git
+[submodule "src/WPF.Extensions"]
+	path = src/WPF.Extensions
+	url = https://bitbucket.org/tallink/wpf-extensions.git
+[submodule "src/SalesSystem.Core"]
+	path = src/SalesSystem.Core
+	url = https://bitbucket.org/tallink/sales-system-core.git
+[submodule "src/WinPOS.Kiisu.ProductCode"]
+	path = src/WinPOS.Kiisu.ProductCode
+	url = https://bitbucket.org/tallink/winpos-kiisu-productcode.git
+[submodule "src/Configuration.Client"]
+	path = src/Configuration.Client
+	url = https://bitbucket.org/tallink/configuration-client.git
