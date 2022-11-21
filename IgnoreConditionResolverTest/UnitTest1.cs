@@ -13,7 +13,7 @@ public class UnitTest1
         JsonTestModel value = new JsonTestModel { History = null! };
         var json = JsonSerializer.Serialize(value, options);
         JsonTestModel? deserializeValue = JsonSerializer.Deserialize<JsonTestModel>(json, options);
-        Assert.Equal(json, "{\"History\":null}");
+        Assert.Equal("{\"History\":null}", json);
         Assert.NotNull(deserializeValue);
         Assert.NotNull(deserializeValue.History);
     }
@@ -25,7 +25,7 @@ public class UnitTest1
         JsonTestModel value = new JsonTestModel { History = null! };
         var json = JsonSerializer.Serialize(value, options);
         JsonTestModel? deserializeValue = JsonSerializer.Deserialize<JsonTestModel>(json, options);
-        Assert.Equal(json, "{\"History\":null}");
+        Assert.Equal("{\"History\":null}", json);
         Assert.NotNull(deserializeValue);
         Assert.NotNull(deserializeValue.History);
     }
